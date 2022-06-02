@@ -1,0 +1,103 @@
+.content-wrapper {
+  flex: 1 1;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.list-unstyled {
+  padding: 0;
+  list-style: none;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-content {
+  border-top: 2px solid #efefefef;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-content--madeby {
+  margin-right: 10px;
+}
+
+.footer-content--link {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+.site-wapper {
+  text-align: center;
+}
+
+.site-header {
+  padding: 20px 0px;
+}
+
+.site-header--title {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+
+.site-header--title:hover {
+  text-decoration: underline;
+}
+
+.site-header--logo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.site-header--name {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: -5px;
+}
+
+.comparson-header {
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
+.comparson-header--text {
+  font-weight: 400;
+}
+
+#search_form{
+  margin-top: 20px;
+}
+
+.algolia-autocomplete{
+  width: 100%;
+  position: relative;
+  display: flex;
+  direction: ltr;
+}
+
+#search_form_input{
+  width: 100%;
+  border: 2px solid #e2e2e2;
+  background-color: transparent;
+  line-height: 2;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-weight: 200;
+  font-size: 20px;
+  -webkit-appearance: none;
+  transition: all .25s;
+}
