@@ -1,6 +1,6 @@
 function Comparison() {
   return (
-    <div className='container'>
+    <div className='comparson-container'>
       <h1 className='comparson-header'>
         <span className='comparson-header--text'>
           Compare package download counts over time

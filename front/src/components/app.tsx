@@ -1,7 +1,9 @@
-import logo from './public/img/logo.svg'
-import './public/css/app.css'
-import Comparison from './Comparison'
+import logo from '../assets/images/svg/logo.svg'
+import '../pages/app.css'
+import Comparison from './comparison'
+import Extra from './extra'
 import Footer from './footer'
+import Suggestions from './suggestions'
 
 function App() {
   return (
@@ -15,7 +17,11 @@ function App() {
         </div>
       </header>
       <div className='content-wrapper'>
-        <Comparison />
+        <div className='container'>
+          <Comparison />
+          <Suggestions />
+          <Extra />
+        </div>
       </div>
       <Footer />
     </div>

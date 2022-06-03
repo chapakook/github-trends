@@ -3,8 +3,9 @@
 }
 
 .container {
-  padding: 0 15px;
+  padding: 0 60px;
   margin: 0 auto;
+  max-width: 1400px;
 }
 
 .list-unstyled {
@@ -23,19 +24,19 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.footer-content--madeby {
-  margin-right: 10px;
+  text-align: center;
 }
 
 .footer-content--link {
+  margin-left: 9px;
   text-decoration: none;
   color: #61dafb;
 }
 
 .site-wapper {
-  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .site-header {
@@ -100,4 +101,28 @@
   font-size: 20px;
   -webkit-appearance: none;
   transition: all .25s;
+  outline-color: #61dafb;
+}
+
+.suggestions--container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions-box{
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.suggestions-list li{
+  line-height: 1.2;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-unstyled{
+  list-style-type: none;
+  padding: 0;
 }
